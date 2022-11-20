@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS styling -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Atlas Experiment</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="logo">
+        <img src="img/logo.png" />
+      </div>
+      <button class="btn" onclick="stop()">
+        <p>STOP</p>
+      </button>
+      <!-- /***CIRCLES***/ -->
+      <div class="content">
+        <div id="VRcircle">
+          <div class="text">
+            <h1 id="VR">VR</h1>
+          </div>
+        </div>
+        <div class="smallCircles">
+          <div class="circle circle4" id="circleHover" onclick="Timer()">
+            <div class="text">
+              <a href="#">
+                <p>Scene</p>
+                <span>IV</span>
+              </a>
+            </div>
+          </div>
+          <div class="circle circle1" id="circleHover" onclick="Timer()">
+            <div class="text">
+              <a href="#">
+                <p>Scene</p>
+                <span>I</span>
+              </a>
+            </div>
+          </div>
+          <div class="circle circle3" id="circleHover" onclick="Timer()">
+            <div class="text">
+              <a href="#" id="circle3">
+                <p>Scene</p>
+                <span>III</span>
+              </a>
+            </div>
+          </div>
+          <div class="circle circle2" id="circleHover" onclick="Timer()">
+            <div class="text" id="circle2">
+              <a href="#">
+                <p>Scene</p>
+                <span>II</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="icons">
+        <img class="icon" src="img/ic-1.png" />
+
+        <img class="icon" src="img/ic-2.png" />
+
+        <img class="icon" src="img/ic-3.png" />
+
+        <img class="icon" src="img/ic-4.png" />
+      </div>
+      <div class="copyright">
+        <p class="copyright-text">2022 Georgian Technical University</p>
+      </div>
+    </div>
+    <!-- /****FOOOTER****/ -->
+    <script src="script.js"></script>
+  </body>
+</html>
